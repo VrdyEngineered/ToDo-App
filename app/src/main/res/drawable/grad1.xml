@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow effect (optional) -->
+    <item android:top="2dp" android:left="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#40000000" />  <!-- Semi-transparent black -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Main gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="0"
+                android:startColor="#FFD700"
+            android:endColor="#FFA500"
+            android:type="linear" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
